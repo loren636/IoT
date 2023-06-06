@@ -1,8 +1,13 @@
+/*
+此项目引用太极创客 http://www.taichi-maker.com/homepage/esp8266-nodemcu-iot/iot-c/esp8266-tips/wifimanager/
+测试WiFiManager库所配置的ESP8266的确可以连接到互联网，并从互联网上的网络服务器获取信息
+并将信息保存到eebrom闪存中，供下次自动连接
+*/
 #include <ESP8266WiFi.h>          
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
 #include <WiFiManager.h>         
-//此项目引用太极创客 http://www.taichi-maker.com/homepage/esp8266-nodemcu-iot/iot-c/esp8266-tips/wifimanager/
+
 void setup() {
     Serial.begin(115200);       
     // 建立WiFiManager对象
