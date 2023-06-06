@@ -1,3 +1,7 @@
+/*
+项目说明：1、可通过公众号"安信可科技"->"应用开发" -> "微信配网" 设置WiFi信息 
+         2、也可以通过Android版本的"点灯blinker"APP "开发者"->"SmartConfig" 配置WiFi信息
+*/
 #define BLINKER_WIFI
 #define BLINKER_ESP_SMARTCONFIG
 
