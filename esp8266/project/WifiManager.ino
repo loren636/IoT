@@ -2,7 +2,7 @@
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
 #include <WiFiManager.h>         
- 
+//此项目引用太极创客 http://www.taichi-maker.com/homepage/esp8266-nodemcu-iot/iot-c/esp8266-tips/wifimanager/
 void setup() {
     Serial.begin(115200);       
     // 建立WiFiManager对象
