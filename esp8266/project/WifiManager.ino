@@ -1,7 +1,6 @@
 /*
+项目说明：通过esp8266发射AP热点，然后手机端连接热点后自动跳转WiFi配置，WiFi连接成功后ESP8266退出AP模式，进入STA模式。WiFi的信息会保存到flash中，供下次自动连接
 此项目引用太极创客 http://www.taichi-maker.com/homepage/esp8266-nodemcu-iot/iot-c/esp8266-tips/wifimanager/
-测试WiFiManager库所配置的ESP8266的确可以连接到互联网，并从互联网上的网络服务器获取信息
-并将信息保存到eebrom闪存中，供下次自动连接
 */
 #include <ESP8266WiFi.h>          
 #include <DNSServer.h>
